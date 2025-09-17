@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pastelería artesanal: tortas, cupcakes y postres hechos con amor.">
     <title>Pastelería Romero</title>
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -13,7 +14,10 @@
 <body>
     <header class="site-header">
         <div class="container header-content">
-            <a class="logo" href="#inicio">Pastelería Romero</a>
+            <a class="logo" href="#inicio">
+                <img class="logo-mark" src="assets/logo-pr.svg" alt="Logo Pastelería Romero" width="28" height="28">
+                <span>Pastelería Romero</span>
+            </a>
             <nav class="nav" id="site-nav" aria-label="Principal">
                 <a href="#inicio">Inicio</a>
                 <a href="#productos">Productos</a>
@@ -53,10 +57,6 @@
                         <div class="card-body">
                             <h3>Torta de Chocolate</h3>
                             <p>Bizcocho húmedo de cacao con ganache de chocolate belga.</p>
-                            <div class="card-footer">
-                                <span class="price">$18.000</span>
-                                <button class="btn btn-sm add-to-cart" data-item="Torta de Chocolate">Agregar</button>
-                            </div>
                         </div>
                     </article>
                     <article class="card">
@@ -64,10 +64,6 @@
                         <div class="card-body">
                             <h3>Cheesecake de Frutos Rojos</h3>
                             <p>Suave, cremoso y con coulis casero de frutos rojos.</p>
-                            <div class="card-footer">
-                                <span class="price">$16.000</span>
-                                <button class="btn btn-sm add-to-cart" data-item="Cheesecake">Agregar</button>
-                            </div>
                         </div>
                     </article>
                     <article class="card">
@@ -75,10 +71,6 @@
                         <div class="card-body">
                             <h3>Cupcakes Surtidos (6u)</h3>
                             <p>Vainilla, chocolate y red velvet con buttercream.</p>
-                            <div class="card-footer">
-                                <span class="price">$10.000</span>
-                                <button class="btn btn-sm add-to-cart" data-item="Cupcakes (6u)">Agregar</button>
-                            </div>
                         </div>
                     </article>
                     <article class="card">
@@ -86,10 +78,34 @@
                         <div class="card-body">
                             <h3>Alfajores Artesanales (12u)</h3>
                             <p>Rellenos con dulce de leche y baño de chocolate.</p>
-                            <div class="card-footer">
-                                <span class="price">$8.000</span>
-                                <button class="btn btn-sm add-to-cart" data-item="Alfajores (12u)">Agregar</button>
-                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media"><img src="assets/product-redvelvet.svg" alt="Torta Red Velvet" width="600" height="400" loading="lazy"></div>
+                        <div class="card-body">
+                            <h3>Torta Red Velvet</h3>
+                            <p>Capas de terciopelo rojo con crema suave de queso.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media"><img src="assets/product-lemonpie.svg" alt="Lemon Pie" width="600" height="400" loading="lazy"></div>
+                        <div class="card-body">
+                            <h3>Lemon Pie</h3>
+                            <p>Base crocante, crema de limón y merengue italiano.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media"><img src="assets/product-tiramisu.svg" alt="Tiramisú" width="600" height="400" loading="lazy"></div>
+                        <div class="card-body">
+                            <h3>Tiramisú</h3>
+                            <p>Clásico italiano con café, cacao y mascarpone.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media"><img src="assets/product-macarons.svg" alt="Macarons" width="600" height="400" loading="lazy"></div>
+                        <div class="card-body">
+                            <h3>Macarons</h3>
+                            <p>Coloridos y delicados, rellenos cremosos artesanales.</p>
                         </div>
                     </article>
                 </div>
